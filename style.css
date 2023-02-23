@@ -1,0 +1,73 @@
+/* Set the background color and font */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul li {
+  padding: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffdb58;
+}
+
+/* Add a custom font */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Style the header */
+header {
+  padding: 20px;
+}
+
+/* Add a background texture to the main content */
+main {
+  background-image: url('texture.png');
+  background-repeat: repeat;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add a CSS animation to the logo */
+.logo:hover {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
